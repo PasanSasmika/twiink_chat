@@ -18,7 +18,7 @@ try{
 
     const user =  await User.findOne({email})
     
-    if (user) return res.status(400).json({ message: "Email alreadt exist" });
+    if (user) return res.status(400).json({ message: "Email alreadt exist........!" });
 
     const salt = await bcrypt.genSalt(10)
     const hashPassword = await bcrypt.hash(password,salt)
