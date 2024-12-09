@@ -1,8 +1,11 @@
-import React from 'react'
+import React  from 'react'
 
 function SettingsPage() {
+
+ 
+ 
   return (
-    <div>SettingsPage</div>
+   <></>
   )
 }
 
