@@ -65,6 +65,8 @@ export const useAuthStore = create((set) =>({
             }finally{
                 set({isLoggingIng: false});
             }
-        }
+        },
+
+        updateProfile: async (data)=>{},
 
 }));
